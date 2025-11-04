@@ -42,7 +42,7 @@ export default function NavBar() {
           <img src={LogoImg} alt="판다마켓 로고" className="logo" />
           <div className="nav__btns">
             <a href="/">자유게시판</a>
-            <a href="/items ">중고마켓</a>
+            <a href="/items">중고마켓</a>
           </div>
         </div>
         <img src={ProfileImg} alt="프로필 이미지" />
