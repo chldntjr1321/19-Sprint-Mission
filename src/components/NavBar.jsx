@@ -5,7 +5,9 @@ export default function NavBar() {
   return (
     <nav className="fixed w-full h-[70px] flex justify-between items-center border-b border-gray-300 px-[200px] bg-white z-50">
       <div className="flex items-center gap-8">
-        <img src={LogoImg} alt="판다마켓 로고" className="w-[153px]" />
+        <a href="/">
+          <img src={LogoImg} alt="판다마켓 로고" className="w-[153px]" />
+        </a>
 
         <div className="flex items-center gap-8">
           <a
